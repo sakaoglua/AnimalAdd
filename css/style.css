@@ -1,0 +1,24 @@
+#lang-input {
+  width: 20rem;
+  height: 2.4rem;
+}
+
+section button {
+  width: 6rem;
+  height: 2.4rem;
+}
+
+#red {
+  color: red;
+}
+
+@media screen and (max-width: 440px) {
+  #lang-input {
+    width: 8rem;
+    font-size: 0.7rem;
+  }
+  section button {
+    width: 5rem;
+  }
+}
+
